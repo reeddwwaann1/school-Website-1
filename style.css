@@ -1,0 +1,227 @@
+body {
+    font-family: play, sans-serif;
+    color: #fff;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212121;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    padding: 50px;
+}
+
+main section {
+    margin-bottom: 50px;
+}
+
+main section h2 {
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+main section form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+main section form label {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+main section form input[type="text"],
+main section form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #212121;
+}
+
+main section form input[type="submit"] {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #8900fa;
+    cursor: pointer;
+}
+
+main section form input[type="submit"]:hover {
+    background-color: #ffa500;
+}
+
+footer {
+    background-color: #212121;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+}
+
+/*logo css*/
+
+.university-logo {
+    display: flex;
+    align-items: center;
+}
+
+.university-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    
+}
+.university-name {
+    background-color: #ffa500;/* Change this to the color you want */
+    padding: 10px; /* Add some padding to the background */
+    
+  }
+  
+
+/*social media icon*/
+.contact-us-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 36px; /* Increased font size */
+    margin: 0 20px; /* Increased margin for better spacing */
+    color: #555;
+}
+
+.social-icon:hover {
+    color: #00c;
+}
+.contact-us-container {
+    border: 2px solid #ccc; /* Add this line */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /*new and events css*/
+  .news_and_event {
+    /* Background and layout */
+    background-color: #212121; /* light gray background */
+    padding: 20px; /* add some space between the content and the border */
+    margin: 20px; /* add some space between the element and other elements */
+    border: 1px solid #ddd; /* thin gray border */
+    border-radius: 10px; /* curved corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow effect */
+    object-fit: fill;
+  
+    /* Typography */
+    font-family: Arial, sans-serif; /* use a clean sans-serif font */
+    font-size: 16px; /* medium font size */
+    line-height: 1.5; /* add some space between lines */
+    color: #ffffff; /* dark gray text color */
+  
+    /* Image styling */
+    img {
+      width: 100%; /* make images full-width */
+      height: auto; /* maintain aspect ratio */
+      margin: 10px 0; /* add some space above and below images */
+      border-radius: 10px; /* curved corners on images */
+    }
+  
+    /* Link styling */
+    a {
+      text-decoration: none; /* remove underline */
+      color: #fefefe; /* blue link color */
+    }
+    a:hover {
+      color: #007ce8; /* darker blue link color on hover */
+    }
+  }
+
+  /* Research section styles */
+.research-section {
+    margin-bottom: 40px;
+}
+
+.research-section h2 {
+    color: #ffffff;
+}
+
+.project-card, .faculty-profile {
+    background-color: #212121;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover, .faculty-profile:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img, .faculty-profile img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-card h3, .faculty-profile h3 {
+    color: #ffffff;
+}
+
+.project-card p, .faculty-profile p {
+    color: #ffffff;
+}
+/* welcome text css*/
+.welcome-text {
+    font-size: 36px; /* Set the font size to 36 pixels */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    color: #ffa500; /* Set the text color to dark gray */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    padding: 10px; /* Add some padding around the text */
+    border: 1px solid #ddd; /* Add a thin gray border */
+    border-radius: 10px; /* Add curved corners */
+    background-color: #212121; /* Add a light gray background */
+    text-align: center; /* Center the text horizontally */
+    margin: 20px auto; /* Add some space above and below the text and center it horizontally */
+  }

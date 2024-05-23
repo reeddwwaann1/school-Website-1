@@ -1,0 +1,46 @@
+.campus-life {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #212121;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .campus-life-item {
+    width: calc(70% - 600px);
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color:#212121;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .campus-life-item:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .campus-life-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .campus-life-item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .campus-life-item p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Dawberry</title>
+    <!-- Add your CSS stylesheets and scripts here -->
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\campus life.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="js/java.js"></script>
+
+    <div class="university-logo" style="position: absolute; top: 0; left: 0;">
+        <span class="university-name"><h1>DAWBERRY<br>UNIVERSITY<h1></span>
+      </div>
+      <div class="university-logo" style="position: absolute; top: 0; right: 0;">
+        <span class="university-name"><h1>DAWBERRY<br>UNIVERSITY<h1></span>
+      </div>
+      <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%);">
+        <h2 class="welcome-text">Welcome to Our University</h2>
+      </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+            <hr>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar with links to different sections -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about" target="_blank">About Us</a></li>
+                <nav class="admission-navbar">
+                    <div class="dropdown">
+                        <li><a href="#Admission" class="dropdown-toggle" onclick="toggleDropdown()">Admission</a></li>
+                        <div class="dropdown-content" id="admissionDropdown">
+                            <a href="#application-Process">Application Process</a>
+                            <a href="#admission-requirements">Admission Requirements</a>
+                            <a href="#deadlines">Deadlines</a>
+                            <a href="#campus-tours-and-open-houses">Campus Tours and Open Houses</a>
+                            <a href="#transfer-students">Transfer Students</a>
+                            <a href="#faqs">FAQs</a>
+                        </div>
+                    </div>
+                </nav>
+                <link rel="stylesheet" href="css/admission.css">
+                <nav class="academics-navbar">
+                    <div class="dropdown">
+                        <li><a class="dropdown-toggle" onclick="toggleDropdown()">Academics</a></li>
+                        <div class="dropdown-content" id="academicsDropdown">
+                            <a href="#academic-programs">Academic Programs</a>
+                            <a href="#course-catalog">Course Catalog</a>
+                            <a href="#faculty-profiles">Faculty Profiles</a>
+                            <a href="#research-opportunities">Research Opportunities</a>
+                            <a href="#study-abroad-programs">Study Abroad Programs</a>
+                            <a href="#academic-support-services">Academic Support Services</a>
+                            <a href="#library-resources">Library Resources</a>
+                            <a href="#academic-calendar">Academic Calendar</a>
+                            <a href="#accreditation">Accreditation</a>
+                            <a href="#student-success-stories">Student Success Stories</a>
+                        </div>
+                    </div>
+                </nav>
+                <li><a href="#campus-life" target="_blank">Campus Life</a></li>
+                <li><a href="#news-events" target="_blank">News & Events</a></li>
+                <li><a href="#research" target="_blank">Research</a></li>
+                <li><a href="#alumni" target="_parent">Alumni</a></li>
+                <li><a href="#contact" target="_blank">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="login">
+            <button id="newStudentBtn">New Student</button>
+            <button id="existingStudentBtn">Existing Student</button>
+            <div id="formContainer"></div>
+          </div>
+          <script src="js/login.js"></script>  
+          <link rel="stylesheet" href="css/login.css">
+
+
+
+
+        <section id="about">
+            <!-- About Us content -->
+            <h2>About Us</h2>
+            <div class="slide-content">
+                <h2 style="color: aliceblue;">Welcome to Our University</h2>
+                <p>Founded in 1990, Our University is a prestigious institution dedicated to academic excellence, innovation, and student success. With a rich history of 34 years, we have established ourselves as a leader in higher education, shaping the minds of future leaders and innovators.</p>
+                <p>At Our University, we believe in the power of education to transform lives and communities. Our commitment to excellence is reflected in our world-class faculty, cutting-edge research facilities, and comprehensive academic programs designed to prepare students for the challenges of the 21st century.</p>
+                <p>As a diverse and inclusive community, we celebrate the unique talents, backgrounds, and perspectives of our students, faculty, and staff. Through collaborative learning experiences and meaningful engagement with the world around us, we cultivate a spirit of curiosity, creativity, and lifelong learning.</p>
+                <p>Whether you are a prospective student, a current member of our community, or an alumna/us, we invite you to join us on our journey of discovery, exploration, and impact. Together, we can make a difference and create a brighter future for generations to come.</p>
+            </div>
+            
+            <!-- Add your about us content here -->
+        </section>
+
+        <section id="campus-life">
+            <!-- Campus Life content -->
+            <h2>Campus Life</h2>
+            <div class="campus-life">
+                <figure class="campus-life-item" data-caption="Nestled amidst the bustling campus life, our university boasts a serene and rejuvenating green space, aptly named theFresh Zone.">
+                     <img src="images\photo_1.png" alt="">
+                <figcaption>Nestled amidst the bustling campus life, our university boasts a serene and rejuvenating green space, aptly named the "Fresh Zone."
+                     This lush oasis offers a tranquil escape from the academic rigors, inviting students, faculty, and visitors to unwind and reconnect with nature. 
+                     With its verdant lawns, meandering pathways, and vibrant flora, the Fresh Zone serves as a hub for outdoor study sessions, leisurely strolls, and community gatherings.
+                      Here, amidst the soothing rustle of leaves and the gentle chirping of birds, individuals find solace and inspiration, fostering a sense of well-being and environmental stewardship within our academic community. 
+                      Whether seeking a moment of respite or seeking inspiration amidst nature's embrace, the Fresh Zone stands as a testament to our commitment to sustainability and holistic student development.</figcaption>
+                </figure>
+                <figure class="campus-life-item" data-caption="At our university, the relationship between students and teachers transcends the traditional boundaries of the classroom, fostering an inclusive and interactive learning environment.">
+                    <img src="images/photo_2.png" alt="">
+                    <figcaption>At our university, the relationship between students and teachers transcends the traditional boundaries of the classroom, fostering an inclusive and interactive learning environment.
+                         Through open dialogue, mutual respect, and collaborative endeavors, students and teachers cultivate a dynamic exchange of ideas, perspectives, and experiences.
+                          Whether in small seminar discussions, hands-on laboratory sessions, or virtual office hours, every interaction is imbued with a spirit of inclusivity, encouraging diverse voices to be heard and valued. 
+                          Beyond academic pursuits, students and teachers engage in extracurricular activities, research projects, and community initiatives, forming meaningful connections that extend far beyond graduation. 
+                          This symbiotic relationship nurtures a culture of lifelong learning, empathy, and empowerment, where every individual is empowered to reach their full potential and contribute positively to society.</figcaption>
+                </figure>
+               
+                <figure class="campus-life-item" data-caption="In our university's state-of-the-art laboratories, students are encouraged to push the boundaries of knowledge, experiment boldly, and innovate fearlessly. "> 
+                    <img src="images\photo_3.png" alt="">
+                <figcaption>In our university's state-of-the-art laboratories, students are encouraged to push the boundaries of knowledge, experiment boldly, and innovate fearlessly. 
+                    Here, curiosity knows no bounds as budding scientists, engineers, and researchers delve into the realms of discovery.
+                    Armed with cutting-edge equipment and guided by experienced mentors, students embark on a journey of exploration, testing hypotheses, and bringing theoretical concepts to life. 
+                    From conducting groundbreaking experiments to designing revolutionary prototypes, every moment in the lab is an opportunity for hands-on learning and growth. Through captivating demonstrations and presentations, students showcase their ingenuity and mastery, inspiring awe and admiration among peers and faculty alike. 
+                    These transformative experiences not only shape the future leaders of tomorrow but also contribute to the advancement of science and technology, leaving an indelible mark on our university's legacy of innovation.</figcaption>
+                </figure>
+                <figure class="campus-life-item" data-caption="In this nurturing environment, students are not just classmates; they are friends, mentors, and allies. Whether through study groups, extracurricular activities, or informal gatherings, students come together to share knowledge, offer support, and celebrate each other's successes. ">
+                    <img src="images\photo_5.png" alt="">
+                    <figcaption>In this nurturing environment, students are not just classmates; they are friends, mentors, and allies. Whether through study groups, extracurricular activities, or informal gatherings, students come together to share knowledge, offer support, and celebrate each other's successes. 
+                        From navigating the challenges of coursework to navigating the complexities of life, this network of peers provides a source of strength, inspiration, and camaraderie that is unparalleled.</figcaption>
+                    </figure>
+                <figure class="campus-life-item" data-caption="At our university, success is not just a goal; it's an expectation."> 
+                    <img src="images\photo_4.png" alt="">
+                <figcaption>At our university, success is not just a goal; it's an expectation.
+                     We pride ourselves on preparing our students not only for academic achievement but also for professional success beyond graduation.
+                      With a curriculum designed to foster critical thinking, practical skills, and industry-relevant knowledge, our graduates are equipped to excel in today's competitive job market.</figcaption>
+                </figure>
+                <figure class="campus-life-item">
+                    <img src="images\picture 6.jpg" alt="">
+                    <figcaption>At Dawberry University, we prioritize the holistic well-being of our students, recognizing the integral connection between physical and mental health. Through our robust sports programs and initiatives, we place a strong emphasis on fostering both physical fitness and mental wellness among our student body. Our comprehensive approach to student health includes a variety of sports activities and resources designed to promote overall well-being. From organized sports teams and intramural leagues to fitness classes and recreational facilities, students have ample opportunities to engage in physical activity and cultivate healthy habits. Additionally, we offer support services and resources dedicated to mental health awareness and support, ensuring that students have access to the resources they need to thrive both inside and outside the classroom. At Dawberry University, we believe that a healthy body and mind are essential components of student success, and we are committed to providing a supportive environment where students can prioritize their health and well-being.</figcaption>
+                </figure>
+            </div>
+            <!-- Add your campus life content here -->
+        </section>
+
+        <section id="news-events">
+            <!-- News & Events content -->
+            <h2>News & Events</h2>
+                        <!-- Add your news & events content here -->
+           <figure class="news_and_event">
+            <img src="images\pexels-emily-ranquist-493228-1205651.jpg" alt="News & Events">
+            <figcaption>
+                    <strong><em>Celebrating Achievements: Congratulations to Our Graduating Students from Dawberry University!</em></strong> <br>
+                It's a time of both reflection and anticipation as we extend our heartfelt congratulations to the graduating class of Dawberry University! After years of hard work, dedication, and perseverance, you have reached a significant milestone in your academic journey, and we couldn't be prouder of your achievements.
+                
+                Throughout your time with us, you have demonstrated not only academic excellence but also resilience, creativity, and a commitment to making a positive impact on the world around you. Whether through groundbreaking research, innovative projects, or active involvement in extracurricular activities, you have left an indelible mark on our institution and the broader community.
+                
+                As you prepare to embark on the next chapter of your lives, we encourage you to carry forward the lessons learned and the friendships forged during your time here. Embrace new challenges with confidence, continue to pursue your passions with zeal, and never forget the values of integrity, empathy, and lifelong learning that have guided you thus far.
+                
+                While this year's graduation celebrations may look a little different, know that our admiration for your accomplishments remains as strong as ever. Whether we gather in person or virtually, the significance of this moment is not diminished, and it serves as a testament to your resilience and determination in the face of adversity.
+                
+                As you bid farewell to Dawberry University, remember that you will always be part of our community, and we eagerly anticipate hearing about your future successes and endeavors. Congratulations once again on this remarkable achievement, and may the future hold endless opportunities for growth, fulfillment, and happiness. Go forth and shine brightly, graduates of Dawberry University!</figcaption>
+           </figure> 
+            <figure class="news_and_event" data-caption="Empowering Voices: The Rise of Mass Media Clubs in University Campuses">
+                    <video width="1250" height="360" controls loop>
+                        <source src="images\3433789-hd_1920_1080_25fps.mp4" autoplay loop>
+                    </video>
+                    <figcaption>
+                        <em>"Empowering Voices: The Rise of Mass Media Clubs in University Campuses"</em> <br>
+                        
+                        In today's digital age, where media plays an increasingly influential role in shaping opinions and perceptions, university campuses are witnessing a surge in the popularity of mass media clubs. These clubs, often student-led and driven by a passion for communication and storytelling, serve as vibrant hubs of creativity, innovation, and social engagement.
+                        
+                        From journalism to filmmaking, podcasting to graphic design, mass media clubs offer a platform for students to explore various facets of media production and expression. With access to state-of-the-art equipment and guidance from experienced mentors, members are equipped with the tools they need to bring their ideas to life and make their voices heard.
+                        
+                        One such club, the Media Mavericks at [University Name], has been at the forefront of this movement, fostering a dynamic community of aspiring journalists, filmmakers, and content creators. Through workshops, guest lectures, and hands-on projects, the club empowers its members to hone their skills, collaborate with peers, and tackle important issues facing society.
+                        
+                        But mass media clubs are about more than just technical skills; they also cultivate critical thinking, empathy, and a sense of social responsibility. Members are encouraged to use their platforms to amplify marginalized voices, challenge stereotypes, and advocate for positive change. Whether reporting on campus events, producing documentaries about local issues, or organizing media literacy workshops, these clubs are making a tangible impact both within the university community and beyond.
+                        
+                        Moreover, mass media clubs provide invaluable networking opportunities, connecting students with industry professionals and alumni who can offer guidance, mentorship, and career insights. Through internships, job placements, and collaborations with external organizations, members gain real-world experience and build the confidence they need to pursue their passions in the competitive field of media.
+                        
+                        As the demand for skilled communicators continues to grow, the role of mass media clubs in universities has never been more important. By nurturing talent, fostering creativity, and promoting ethical storytelling, these clubs are not only shaping the future of media but also empowering the next generation of changemakers to make a positive impact on the world.</figcaption>
+            </figure>
+            <figure class="news_and_event">
+                <img src="images\pexels-olly-3761509.jpg" alt="">
+                <figcaption>Exciting Announcement: Get Ready for "HarmonyFest"! <br>
+
+                    Prepare to mark your calendars and unleash your festive spirit because something extraordinary is just around the corner! We are thrilled to announce the upcoming HarmonyFest, set to take place in our vibrant community in the coming weeks. This eagerly anticipated event promises a spectacular celebration of culture, arts, and community spirit like never before.
+                    
+                    Prepare to immerse yourself in a whirlwind of sights, sounds, and flavors as HarmonyFest transforms our streets into a bustling hub of excitement and entertainment. From colorful parades to mesmerizing performances, from mouthwatering culinary delights to captivating cultural exhibitions, there will be something for everyone to enjoy and savor.
+                    
+                    But HarmonyFest is more than just a showcase of talent and creativity; it's a time for us to come together as a community, to celebrate our diversity, and to forge lasting connections with one another. Whether you're a long-time resident or a newcomer to our town, you're sure to feel the warmth and camaraderie that permeates every corner of the festival grounds.
+                    
+                    So, dust off your dancing shoes, bring your appetite for adventure, and join us as we embark on this unforgettable journey of music, art, and celebration. Stay tuned for more details, including dates, lineup, and ticket information, as we prepare to kick off HarmonyFest in style. Get ready to make memories that will last a lifetime at HarmonyFest – the event of the year that you won't want to miss!</figure>
+
+                    <figure class="news_and_event">
+                        <img src="images\pexels-wdnet-242492.jpg" alt="">
+                        <figcaption>
+                            <strong><em><h4>Stay Connected with Dawberry University!</h4></em></strong>
+
+As we continue to celebrate achievements, foster community, and embark on new adventures, we invite you to stay connected with Dawberry University across our social media channels. Follow us on Facebook, Instagram, Twitter, and LinkedIn to stay up-to-date with the latest news, events, and happenings on campus. Join the conversation, share your memories, and connect with fellow students, alumni, faculty, and staff. Together, let's keep the spirit of Dawberry alive and thriving in the digital sphere. Don't miss out on exclusive content, behind-the-scenes glimpses, and opportunities to engage with our vibrant community. Follow us today and be part of the Dawberry experience, wherever you are!
+                        </figcaption>
+                    </figure>
+        </section>
+
+        <section id="research">
+                        <!-- Research content -->
+                        <h2>Research</h2>
+                        <!-- Add your research content here -->
+            <nav>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#projects">Research Projects</a></li>
+                    <li><a href="#faculty">Faculty</a></li>
+                    <!-- Add more navigation links as needed -->
+                </ul>
+            </nav>
+            <section id="overview" class="research-section">
+                <h2>Overview of Research Areas</h2>
+                <p>Dawberry University conducts research across a wide range of disciplines, including science, technology, engineering, mathematics, social sciences, humanities, and interdisciplinary studies. Our research endeavors aim to address pressing global challenges, drive innovation, and contribute to the advancement of knowledge.</p>
+            </section>
+        
+            <!-- Research Projects section -->
+            <section id="projects" class="research-section">
+                <h2>Research Projects</h2>
+                <!-- Add individual project cards here -->
+                <div class="project-card">
+                    <img src="images\html.jpg" alt="Project 1">
+                    <h3> <em> The Evolution of HTML: From HTML 1.0 to HTML5</em> </h3>
+                    <p>
+                        Title: The Evolution of HTML: From HTML 1.0 to HTML5 <br>
+                        
+                        Abstract: <br>
+                        This research project aims to explore the evolution of Hypertext Markup Language (HTML) from its inception with HTML 1.0 to the latest version, HTML5. HTML has undergone significant transformations over the years, adapting to the changing needs of web developers and users alike. By examining the key features, improvements, and advancements introduced in each version of HTML, this study seeks to provide a comprehensive understanding of HTML's evolution and its impact on web development practices.
+                        
+                        Research Objectives: <br>
+                        1. To trace the development of HTML from HTML 1.0 to HTML5.  <br>
+                        2. To identify the major features and enhancements introduced in each version of HTML.  <br>
+                        3. To examine the significance of HTML's evolution in shaping the modern web development landscape.  <br>
+                        4. To assess the impact of HTML5 on web design, interactivity, multimedia integration, and mobile compatibility.  <br>
+                        5. To analyze the challenges and opportunities associated with adopting HTML5 for web development projects.  <br> <br>
+                        
+                        Methodology:  <br>  <br>
+                        This research will primarily rely on a literature review of academic articles, technical documentation, and online resources related to the history and evolution of HTML. The study will also include an analysis of case studies, tutorials, and examples showcasing the practical implementation of HTML5 features in real-world web development projects. Additionally, interviews with web developers and industry experts may be conducted to gather insights into the perceived benefits and challenges of using HTML5. <br> <br>
+                        
+                        Expected Findings:  <br> <br>
+                        The research is expected to reveal a chronological overview of HTML's evolution, highlighting the pivotal changes introduced in each version. It is anticipated that HTML5 will emerge as a significant milestone, offering advanced capabilities for creating dynamic, multimedia-rich web experiences. The findings may also underscore the importance of HTML5 in addressing the demands of modern web users and the growing diversity of internet-enabled devices.  <br> <br>
+                        
+                        Conclusion: <br> <br>
+                        By documenting the evolution of HTML and assessing the impact of HTML5, this research aims to contribute to the understanding of web development technologies and practices. The insights gained from this study can inform developers, designers, and stakeholders about the capabilities and potential of HTML5 in shaping the future of the web.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images\social-media.png" alt="Project 2">
+                    <h3><em>The Impact of Social Media on Mental Health: A Comprehensive Review</em></h3>
+                    <p>
+                       Title: The Impact of Social Media on Mental Health: A Comprehensive Review
+                        
+                        Abstract
+                        This research project aims to investigate the complex relationship between social media usage and mental health outcomes. With the proliferation of social media platforms in recent years, there has been growing concern about the potential psychological effects of excessive use, cyberbullying, and the curated nature of online personas. Through a comprehensive review of existing literature and empirical studies, this research seeks to provide insights into the various ways in which social media can influence mental well-being, both positively and negatively.
+                        
+                        Research Objectives:
+                        1. To examine the prevalence and patterns of social media usage across different demographics.
+                        2. To identify the psychological mechanisms underlying the impact of social media on mental health, such as social comparison, fear of missing out (FOMO), and online harassment.
+                        3. To explore the association between social media use and common mental health issues, including depression, anxiety, loneliness, and body image dissatisfaction.
+                        4. To investigate the potential protective factors and positive outcomes associated with social media engagement, such as social support, community building, and access to mental health resources.
+                        5. To analyze the effectiveness of interventions and strategies aimed at promoting healthy social media usage and mitigating negative mental health outcomes.
+                        
+                        Methodology:
+                        This research will involve a systematic review of academic literature from psychology, sociology, communication studies, and related fields. Databases such as PubMed, PsycINFO, and Web of Science will be searched using predefined search terms and inclusion criteria. The selected studies will be synthesized to identify common themes, trends, and gaps in the literature. Additionally, qualitative and quantitative data analysis techniques may be employed to examine the strength of associations between social media use and mental health outcomes.
+                        
+                        **Expected Findings:**
+                        The research is expected to highlight the multifaceted nature of the relationship between social media and mental health, with both positive and negative effects observed across different contexts and populations. It is anticipated that factors such as the type of social media platform, individual characteristics, and usage patterns will moderate the impact on mental well-being. The findings may also underscore the importance of promoting digital literacy, resilience, and self-regulation skills to enhance users' ability to navigate social media environments in a healthy and adaptive manner.
+                        
+                        **Conclusion:**
+                        By shedding light on the complex interplay between social media and mental health, this research aims to inform policymakers, educators, healthcare professionals, and the general public about the potential risks and benefits of social media use. The insights gained from this study can guide the development of evidence-based interventions, guidelines, and educational initiatives aimed at promoting positive online experiences and supporting individuals' mental well-being in the digital age.</p>
+                </div>
+                <!-- Add more project cards as needed -->
+            </section>
+        
+            <!-- Faculty section -->
+            <section id="faculty" class="research-section">
+                <h2>Faculty Profiles</h2>
+                <!-- Add individual faculty profiles here -->
+                <div class="faculty-profile">
+                    <img src="images\dr.emly.jpg" alt="Faculty 1">
+                    <h3>Department of computer science</h3>
+                    <p>
+                        Dr. Emily Johnson <br><br>
+
+                        Position: Associate Professor<br>
+                        Department: Department of Computer Science<br>
+                        University: Techville University<br><br>
+                        
+                        Bio: <br>
+                         Dr. Emily Johnson is an accomplished educator and researcher with a passion for advancing the field of computer science. She holds a Ph.D. in Computer Science from Techville University, where her research focused on artificial intelligence and machine learning. With over a decade of experience in academia, Dr. Johnson has taught a wide range of courses, including Introduction to Programming, Data Structures, and Artificial Intelligence.
+                        
+                        Research Interests: Dr. Johnson's research interests encompass various aspects of artificial intelligence, including natural language processing, computer vision, and reinforcement learning. She is particularly interested in developing AI algorithms that can assist in solving real-world problems, such as healthcare diagnostics, autonomous driving, and environmental monitoring.
+                        
+                        Teaching Philosophy: Dr. Johnson believes in fostering a collaborative and inclusive learning environment where students are encouraged to explore, question, and innovate. She emphasizes hands-on learning experiences, project-based assignments, and interdisciplinary collaborations to prepare students for success in the rapidly evolving field of computer science.<br><br>
+                        
+                        Selected Publications:<br>
+                        
+                        "Advancements in Natural Language Understanding: A Deep Learning Approach." Journal of Artificial Intelligence Research, 2022.<br>
+                        "Deep Reinforcement Learning for Autonomous Navigation in Dynamic Environments." Proceedings of the International Conference on Robotics and Automation, 2021.<br>
+                        "Understanding Neural Networks: From Theory to Practice." Book Chapter in Advances in Machine Learning, Springer, 2020.</p>
+                </div>
+                <div class="faculty-profile">
+                    <img src="images\Michael-Rodriguez.jpg" alt="Faculty 2">
+                    <h3>Department: Department of Environmental Science</h3>
+                    <p> 
+                        Prof. Michael Rodriguez <br>
+
+                        Position: Assistant Professor<br>
+                        Department: Department of Environmental Science<br>
+                        University: Green Valley University<br><br>
+                        
+                        Bio:<br>
+                        Prof. Michael Rodriguez is a dedicated environmental scientist and educator committed to addressing pressing environmental challenges through research and education. He holds a Master's degree in Environmental Science from Green Valley University and has extensive experience working in both academic and industry settings. Prof. Rodriguez is passionate about promoting environmental sustainability and resilience through interdisciplinary approaches.
+                        
+                        Research Interests: Prof. Rodriguez's research interests span a wide range of environmental topics, including climate change mitigation, biodiversity conservation, sustainable agriculture, and ecosystem restoration. He employs a combination of fieldwork, data analysis, and modeling techniques to understand complex environmental systems and develop evidence-based solutions.
+                        
+                        Teaching Philosophy: Prof. Rodriguez believes in the importance of experiential learning and community engagement in environmental education. He integrates field trips, service-learning projects, and guest lectures from environmental practitioners into his courses to provide students with practical insights and hands-on experiences. Prof. Rodriguez also emphasizes the ethical dimensions of environmental science and encourages students to critically examine the social, economic, and political factors influencing environmental issues.
+                        
+                        Selected Publications:<br>
+                        
+                        "Assessing the Impacts of Climate Change on Coastal Ecosystems: A Case Study of Green Valley Estuary." Environmental Science & Technology, 2023.<br>
+                        "Agroecological Approaches to Sustainable Agriculture: Lessons from Smallholder Farming Communities." Journal of Sustainable Agriculture, 2022.<br>
+                        "Restoring Urban Ecosystem Services: Integrating Ecological Design Principles with Community Engagement." Landscape and Urban Planning, 2021.<br>
+                        </p>
+                </div>
+                <!-- Add more faculty profiles as needed -->
+            </section>
+        </section>
+
+        <section id="alumni">
+            <!-- Alumni content -->
+            <h2>Alumni</h2>
+            <h2>Alumni Stories</h2>
+            <div class="alumni-story">
+                <h3>John Doe</h3>
+                <p>John Doe graduated from our institution with a degree in Computer Science in 2015. Throughout his academic journey, John demonstrated exceptional aptitude and passion for coding, software development, and problem-solving. He actively participated in hackathons, coding competitions, and research projects, where he honed his technical skills and collaborated with peers and faculty mentors.
+
+                    Upon graduation, John secured a software engineering position at a leading tech company, where he played a key role in developing innovative software solutions for clients in various industries, including healthcare, finance, and e-commerce. His ability to tackle complex challenges, adapt to new technologies, and work effectively in multidisciplinary teams earned him recognition and opportunities for career advancement.
+                    
+                    In 2018, John decided to pursue further education and enrolled in a Master's program in Artificial Intelligence at a prestigious university. During his graduate studies, he delved deep into cutting-edge research in machine learning, computer vision, and natural language processing, contributing to several publications and projects that pushed the boundaries of AI technology.
+                    
+                    After completing his Master's degree, John joined a tech startup specializing in AI-driven applications for healthcare. As a lead machine learning engineer, he spearheaded the development of algorithms for medical image analysis and patient diagnosis, leveraging his expertise to improve healthcare outcomes and revolutionize the way medical professionals leverage technology in their practice.
+                    
+                    Today, John continues to make strides in the field of AI and software engineering, driven by his passion for innovation and his desire to make a positive impact on society. He credits his alma mater for providing him with the knowledge, skills, and opportunities that have shaped his successful career journey.</p>
+            </div>
+            <div class="alumni-story">
+                <h3>Jane Smith</h3>
+                <p>Jane Smith graduated from our institution with a Bachelor's degree in Business Administration in 2010. During her time here, she was actively involved in various student organizations and leadership roles, including serving as the president of the Business Club. Jane's passion for entrepreneurship and innovation drove her to pursue internships with several startups, where she gained valuable experience in marketing and project management.
+
+                    After graduating, Jane embarked on a dynamic career journey, starting as a marketing assistant at a local tech firm and quickly climbing the ranks to become a marketing manager within three years. Her dedication, creativity, and strategic thinking enabled her to lead successful marketing campaigns and initiatives that significantly contributed to the company's growth and market expansion.
+                    
+                    In 2017, Jane decided to pursue her entrepreneurial aspirations by co-founding her own digital marketing agency, specializing in helping small businesses establish their online presence and grow their customer base. With her expertise in digital marketing strategies and her commitment to delivering exceptional results, Jane's agency quickly gained traction and garnered recognition within the industry.
+                    
+                    Today, Jane continues to lead her agency, empowering small business owners to achieve their goals and thrive in the digital landscape. She remains grateful for the education and experiences she gained at our institution, which laid the foundation for her professional success and entrepreneurial journey..</p>
+            </div>
+        </section>
+    
+        <section id="events">
+            <h2>Events</h2>
+            <p>No upcoming events at the moment. Check back later for updates!</p>
+        </section>
+
+           <section id="contact">
+            <!-- Contact Us content -->
+            <h2>Contact Us</h2>
+            <div class="contact-us-container">
+                <p>If you have any questions or would like to get involved, please contact us:</p>
+                <p>Email: <a href="mailto:dawberry@information.gmail.com">dawberry@information.gmail.com</a></p>
+                <p>Email for almuni inqueres : <a href="mailto:Email: alumni@dawberry.com">alumni@dawberry.com</a></p>
+                <p>If You Would Like To Get Involved, Please Follow Our Social-Media Accounts :</p>
+                <div class="social-icons">
+                    <a href="+251099999999" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="Dawberry University" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="Dawberry University" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="University of Dawberry" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!-- Add your contact us content here -->
+        </section>
+    </main>
+<hr>
+    <footer>
+        <!-- Footer content -->
+        <p>&copy; 2024 University of Dawberry. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your scripts here -->
+</body>
+</html> 
